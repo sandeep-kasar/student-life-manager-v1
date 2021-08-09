@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_help"
+            android:title="@string/lbl_home" />
+        <item
+            android:id="@+id/nav_my_task"
+            android:icon="@drawable/ic_task"
+            android:title="@string/lbl_my_task" />
+
+        <item
+            android:id="@+id/nav_my_browser"
+            android:icon="@drawable/ic_help"
+            android:title="@string/lbl_my_browser" />
+
+        <item
+            android:id="@+id/nav_my_expense"
+            android:icon="@drawable/ic_rupee"
+            android:title="@string/lbl_my_expense" />
+
+
+    </group>
+
+    <item android:title="Other">
+        <menu>
+            <item
+                android:id="@+id/nav_help"
+                android:icon="@drawable/ic_help"
+                android:title="@string/lbl_help" />
+            <item
+                android:id="@+id/nav_setting"
+                android:icon="@drawable/ic_help"
+                android:title="@string/lbl_settings" />
+        </menu>
+    </item>
+
+</menu>

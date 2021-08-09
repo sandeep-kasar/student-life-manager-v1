@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.github.clans.fab.FloatingActionMenu
+        android:id="@+id/menuInput"
+        fab:menu_fab_size="normal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        fab:menu_animationDelayPerItem="0"
+        fab:menu_colorNormal="@color/colorPrimary"
+        fab:menu_colorPressed="@color/colorPrimary"
+        fab:menu_colorRipple="@color/colorPrimaryDark"
+        fab:menu_icon="@drawable/ic_plus"
+        fab:menu_labels_ellipsize="end"
+        fab:menu_labels_maxLines="2">
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fabIncome"
+            style="@style/MenuButtonsSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_edit"
+            fab:fab_label="Income" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fabExpense"
+            style="@style/MenuButtonsSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_edit"
+            fab:fab_label="Expense" />
+
+
+    </com.github.clans.fab.FloatingActionMenu>
+
+
+</RelativeLayout>
